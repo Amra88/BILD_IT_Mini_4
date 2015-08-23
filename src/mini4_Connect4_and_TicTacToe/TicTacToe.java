@@ -64,7 +64,6 @@ public class TicTacToe {
 				// koordinate spremamo u niz
 				cell[0] = row;
 				cell[1] = column;
-				// c = false;
 				// provjeravamo da li je trazena celija tabele slobodna za unos
 				if (grid[cell[0]][cell[1]] != '\u0000') {
 					// ukoliko nije, korisnik unosi nove koordinate
@@ -102,7 +101,6 @@ public class TicTacToe {
 				int column = input.nextInt();
 				cell[0] = row;
 				cell[1] = column;
-//				c = false;
 				if (grid[cell[0]][cell[1]] != 0) {
 					System.out
 							.println("The cell is not available! Try again. ");
